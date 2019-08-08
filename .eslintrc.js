@@ -19,6 +19,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/jsx-filename-extension': 0,
-    'react/button-has-type': 0
+    'react/button-has-type': 0,
+    'no-shadow': 0
   }
 };
