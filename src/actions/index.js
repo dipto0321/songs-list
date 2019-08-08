@@ -1,6 +1,8 @@
+import songsSelected from '../data/actionsNames';
+
 const selectSong = song => {
   return {
-    type: 'SONG_SELECTED',
+    type: songsSelected,
     payload: song
   };
 };
