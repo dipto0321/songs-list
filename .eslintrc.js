@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': 0,
     'react/button-has-type': 0,
-    'no-shadow': 0
+    'no-shadow': 0,
+    'react/prop-types': 0
   }
 };
